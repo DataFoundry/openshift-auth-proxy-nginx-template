@@ -9,7 +9,7 @@ ADD . /
 # Install node & bower depends
 # Set bower root allow
 RUN apk add --update nginx && \
-    cp nginx.conf /etc/nginx/nginx.conf && \
+    cp nginx.conf /etc/nginx/nginx.conf
 
 EXPOSE 8000
 
