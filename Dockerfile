@@ -2,6 +2,7 @@ FROM alpine
 
 # Copy code
 
+ADD . /
 
 # Install nginx & node
 # Install Bower
